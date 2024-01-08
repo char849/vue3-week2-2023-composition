@@ -39,7 +39,7 @@ createApp({
         })
         .catch((err) => {
           alert(err.response.data.message);
-          window.location = "login.html";
+          window.location = "index.html";
         });
     };
 
